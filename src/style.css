@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+  color: #e50914;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  font-size: 2em;
+  font-family: "Antonio", sans-serif;
+}
+
+header .logo span {
+  color: rgb(80, 23, 23);
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.nav ul li a:hover,
+.nav ul li a.active {
+  background: #e50914e7;
+  color: white;
+}
+
+.heroes-list {
+  overflow: hidden;
+  display: flex;
+  list-style: none;
+}
+
+.heroes-list img {
+  margin-top: 70%;
+  width: 256px;
+  height: 350px;
+}
+
+.heroes {
+  display: flex;
+}
+
+.heroes-list span {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Antonio", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.3px;
+}
+
